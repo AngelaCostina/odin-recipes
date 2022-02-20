@@ -1,0 +1,74 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+  
+body {
+    font-family: 'Courier New,Courier','Lucida Sans Typewriter','Lucida Typewriter',monospace; 
+    margin: 0;
+    min-height: 100vh;
+}
+
+.title {
+    font-family: 'Brush Script MT',cursive; 
+    font-size: 4rem;
+    text-align: center;
+    color: #184e77;
+    padding: 0.50em;
+    margin: 0;
+    letter-spacing: 0.25em;
+}
+
+.recipe-list {
+    font-size: 2.5rem;
+    color: #184e77;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1;
+    min-height: 70vh;
+    padding-left: 0;
+}
+
+.item {
+    padding: 1em;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.recipe-img {
+    width: 50vh;
+    height: 50vh;
+    object-fit: cover;
+    margin: 2% auto;
+}
+
+.recipe-title {
+    padding: 0.75em;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    min-height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0;
+    color: #4d908e;
+}
